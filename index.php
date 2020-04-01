@@ -32,7 +32,7 @@ and open the template in the editor.
             </div>
             <div class="login_form">
                 <h1>Sign In</h1>
-                <form action="index1.php"  method="POST" >
+                <form action="index123.php"  method="POST" >
                     <input type="text" name="txtuser" required="" placeholder="Username">
                     <input type="password" name="txtpass" required="" placeholder="Password">
                     <input type="submit" name="btnsubmit" value="Login">
