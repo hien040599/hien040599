@@ -132,13 +132,13 @@
                      class="attachment-sticky size-sticky" alt=""/>
   				</a>
   		    </span>
-     <?php
-                                }
-                                ?>
             <div class="inner">
                 <h3 class="entry-title">
-                    <a href="#">The Lollipop</a>
+                    <a href="#"><?= $row[1] ?></a>
                 </h3>
+		    <?php
+                                }
+                                ?>
 <!-- kết thúc while-->
                 <ul class="meta top">
                     <li class="time">
