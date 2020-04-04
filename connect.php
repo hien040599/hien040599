@@ -15,11 +15,11 @@ if (isset($_POST['_pass'])) {
     $pass = $_POST['_pass'];
 }
 $result = pg_query($cnn, "select * from login where _use = '" . $username . "' and _pass = '" . $pass . "'");
-//if($result){
-//    echo "thanh cong";
-//} else {
-//    echo 'that bai';
-//}
+if($result){
+   echo "thanh cong";
+} else {
+  echo 'that bai';
+}
 //        while($row= pg_fetch_row($result)){
 //            if($row[0]=$usename && $row[1]=$pass){
 //                echo 'success';
