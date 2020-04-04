@@ -16,7 +16,8 @@ if (isset($_POST['_pass'])) {
 }
 $result = pg_query($cnn, "select * from login where _use = '" . $username . "' and _pass = '" . $pass . "'");
 if($result){
-   echo "thanh cong";
+//echo "thanh cong";
+     header('location:home.php');
 } else {
   echo 'that bai';
 }
