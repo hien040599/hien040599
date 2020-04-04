@@ -114,8 +114,8 @@
                                 $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
-                        <p><img class="size-full alignleft rounded" src="" alt="about-clare" width="300" height="300">
-                            Hi, my name is Clare and I’m a serial blogger. I love life and more than anything in the whole wide world, I love taking photographs.</p>
+                        <p><img class="size-full alignleft rounded" src="<?= $row[4] ?>" alt="about-clare" width="300" height="300">
+                            Price: <?= $row[2] ?></p>
                         <p>Oh and did I mention, I quite like blogging?</p>
                         <p>I’m an aspring photographer and this is my little corner of the world, so take a look around and let me know what you think… I’m on these little social networks too…</p>
                         <p>
