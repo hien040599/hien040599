@@ -123,7 +123,7 @@
  <?php
                                 include 'connect.php';
                                 $sql = "select* from tblproduct";
-                                $result = pg_query($conn, $sql);
+                                $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
   		    <span class="post-image">
