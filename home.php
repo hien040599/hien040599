@@ -128,7 +128,7 @@
                                   ?>
   		    <span class="post-image">
   				<a href="#">
-  				<img width="502" height="502" src=<?= $row[4] ?>
+  				<img width="502" height="502" src="<?= $row[4] ?>"
                      class="attachment-sticky size-sticky" alt=""/>
   				</a>
   		    </span>
