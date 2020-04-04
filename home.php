@@ -127,7 +127,7 @@
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
   		    <span class="post-image">
-  				<a href="#">
+  				<a href="details.php">
   				<img width="502" height="502" src="<?= $row[4] ?>"
                      class="attachment-sticky size-sticky" alt=""/>
   				</a>
