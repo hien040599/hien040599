@@ -107,12 +107,21 @@
                 <div class="inner">
                     <h1>About me</h1>
                     <div class="post-content">
-      <!-- bắt đầu-->                  
-                        <p><img class="size-full alignleft rounded" src="images/about-me.jpg" alt="about-clare" width="300" height="300">
+      <!-- bắt đầu-->    
+			    <?php
+                                include 'connect.php';
+                                $sql = "select* from tblproduct";
+                                $result = pg_query($cnn, $sql);
+                                while ($row = pg_fetch_array($result)) {
+                                  ?>
+                        <p><img class="size-full alignleft rounded" src="" alt="about-clare" width="300" height="300">
                             Hi, my name is Clare and I’m a serial blogger. I love life and more than anything in the whole wide world, I love taking photographs.</p>
                         <p>Oh and did I mention, I quite like blogging?</p>
                         <p>I’m an aspring photographer and this is my little corner of the world, so take a look around and let me know what you think… I’m on these little social networks too…</p>
                         <p>
+				<?php
+				}
+			    ?>
                             <a target="_self" class="social twitter black" href="#"> Twitter </a>
                             <a target="_self" class="social facebook black" href="#"> Facebook&nbsp;</a>
                             <a target="_self" class="social instagram black" href="#">&nbsp;instagram&nbsp;</a>
