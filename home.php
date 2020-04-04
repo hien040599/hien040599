@@ -128,7 +128,7 @@
                                   ?>
   		    <span class="post-image">
   				<a href="#">
-  				<img width="502" height="502" src="https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fwww.ikea.com%2Fus%2Fen%2Fp%2Fgosig-golden-soft-toy-dog-yellow-golden-retriever-80132799%2F&psig=AOvVaw3ELDmSPSY6DEaFHkDF-hgw&ust=1586080773287000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICNsLzBzugCFQAAAAAdAAAAABAD"
+  				<img width="502" height="502" src="<?= $row[4] ?>"
                      class="attachment-sticky size-sticky" alt=""/>
   				</a>
   		    </span>
