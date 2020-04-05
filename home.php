@@ -62,11 +62,12 @@
                                 <i class="fa fa-facebook"></i><span class="i">Facebook</span>
                             </a></li>
                         <li class="menu-inline menu-item">
-                            <a title="Flickr" href="#"><i class="fa fa-flickr"></i><span class="i">Flickr</span></a>
-                        </li>
+                           <a title="Instagram" href="#">
+                                <i class="fa fa-instagram"></i><span class="i">Instagram</span>
+                            </a>
                         <li class="menu-inline menu-item">
                             <a title="Instagram" href="#">
-                                <i class="fa fa-instagram"></i><span class="i">Instagram</span>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="i">Cart</span>
                             </a>
                         </li>
                     </ul>
