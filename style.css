@@ -3692,5 +3692,25 @@ header.header nav,
     height: 50% !important;
   }
 }
+.add1{
+  background-color: #2d3436; /* Green */
+  border: none;
+  color: white;
+  padding: 40px,10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+table {
+ border-collapse:collapse;
+  width: 50%;
+}
 
+th, td {
+  padding: 1px;
+}
 /*# sourceMappingURL=style.css.map */
