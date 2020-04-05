@@ -44,9 +44,9 @@
                     <ul id="menu-menu-1" class="">
                         <li class="menu-item">
                             <a href="home.php">Home</a></li>
-                        <li class="menu-item current-menu-item">
-                            <a href="about.html">About me</a></li>
-                        <li class="menu-item">
+                        <!--<li class="menu-item current-menu-item">
+                            <a href="about.html">About me</a></li>-->
+                        <!--<li class="menu-item">
                             <a href="#">Dropdown</a>
                             <ul class="sub-menu">
                                 <li class="menu-item">
@@ -57,7 +57,7 @@
                                     <a href="#">Fitness</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li class="menu-item">
                             <a href="blog.html">Blog</a>
                             <ul class="sub-menu">
@@ -65,8 +65,8 @@
                                     <a href="single.html">Single</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item">
-                            <a href="typography.html">Typography</a></li>
+                        <!--<li class="menu-item">
+                            <a href="typography.html">Typography</a></li>-->
                         <li class="menu-item">
                             <a href="contact.html">Contact me</a></li>
                         <li class="menu-inline menu-item">
@@ -109,7 +109,7 @@
                 <div class="inner">
 			<?php
                                 include 'connect.php';
-                                $sql = "select* from tblproduct";
+                                $sql = "select* from tblproduct where _id='P03'";
                                 $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
