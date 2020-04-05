@@ -43,7 +43,7 @@
                 <div class="table-cell">
                     <ul id="menu-menu-1" class="">
                         <li class="menu-item">
-                            <a href="index.html">Home</a></li>
+                            <a href="home.php">Home</a></li>
                         <li class="menu-item current-menu-item">
                             <a href="about.html">About me</a></li>
                         <li class="menu-item">
