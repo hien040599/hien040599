@@ -49,14 +49,14 @@
                             <a href="about.html">About me</a></li>-->
 			    
                        <li class="menu-item">
-                         <!--   <a href="#">Dropdown</a>
+                           <a href="#">Dropdown</a>
                             <ul class="sub-menu">
                                 <li class="menu-item">
                                     <a href="#">Cute</a></li>
                                 <li class="menu-item">
                                     <a href="#">Fun</a></li>
                                 <li class="menu-item">
-                                    <a href="#">Fitness</a>-->
+                                    <a href="#">Fitness</a>
                                 </li>
                             </ul>
                         </li>
