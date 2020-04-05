@@ -155,7 +155,7 @@
                     </div>
    <!--kết thúc-->                 
                 </div>
-?php
+<?php
 				}
 			    ?>
             </article>
