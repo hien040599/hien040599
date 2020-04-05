@@ -43,19 +43,7 @@
                 <div class="table-cell">
                     <ul id="menu-menu-1">
                         <li class="menu-item">
-                            <a href="index.html">Home</a></li>
-                        <li class="menu-item">
-                            <a href="details.php">About me</a></li>
-                        <li class="menu-item">
-                            <a href="#">Dropdown</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item">
-                                    <a href="#">Cute</a></li>
-                                <li class="menu-item">
-                                    <a href="#">Fun</a></li>
-                                <li class="menu-item">
-                                    <a href="#">Fitness</a>
-                                </li>
+                            <a href="home.php">Home</a></li>
                             </ul>
                         </li>
                         <li class="menu-item">
@@ -65,8 +53,7 @@
                                     <a href="single.html">Single</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item">
-                            <a href="typography.html">Typography</a></li>
+                        
                         <li class="menu-item">
                             <a href="contact.html">Contact me</a></li>
                         <li class="menu-inline menu-item">
@@ -112,7 +99,7 @@
 </div>
 <div class="home-sticky" id="content">
 
-    <h2 class="home-sticky-title">my fave moments</h2>
+    <!--<h2 class="home-sticky-title">my fave moments</h2>-->
 
 
     <div class="sticky-inner">
