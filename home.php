@@ -106,7 +106,7 @@
 <!--while-->
  <?php
                                 include 'connect.php';
-                                $sql = "select* from tblproduct";
+                                $sql = "select* from tblproduct where _id="P02"";
                                 $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
@@ -127,7 +127,7 @@
                 <ul class="meta top">
                     <li class="time">
                         <a href="#">
-                            <time class="post-date updated" datetime="2015-02-02">February 2, 2015</time>
+                            <time class="post-date updated">View details</time>
                         </a>
                     </li>
                 </ul>
