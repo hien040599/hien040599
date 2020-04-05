@@ -102,15 +102,17 @@
 
     <div class="sticky-inner">
         <!--khối này-->
-
-        <aside class="home-sticky-post post has-post-thumbnail sticky">
-<!--while-->
  <?php
                                 include 'connect.php';
                                 $sql = "select* from tblproduct";
                                 $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
+        <aside class="home-sticky-post post has-post-thumbnail sticky">
+<!--while-->
+
+		
+		
   		    <span class="post-image">
   				<a href="details.php">
   				<img width="502" height="502" src="<?= $row[4] ?>"
@@ -121,9 +123,9 @@
                 <h3 class="entry-title">
                     <a href="#"><?= $row[1] ?></a>
                 </h3>
-		    <?php
-                                }
-                                ?>
+		 
+		    
+		    
 <!-- kết thúc while-->
                 <ul class="meta top">
                     <li class="time">
@@ -135,6 +137,9 @@
             </div>
 
         </aside>
+	    <?php
+                                }
+                                ?>
 <!--kết thúc-->
         <aside class="home-sticky-post post has-post-thumbnail sticky ">
 
