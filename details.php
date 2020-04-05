@@ -139,9 +139,9 @@
                              <tr>
                              <td>Color</td>
                              <td><select name="sltype">
-                                <option>xám</option>
-                                <option>nâu</option>
-                                <option>hồng</option>
+                                <option>Grey</option>
+                                <option>Brow</option>
+                                <option>Pink</option>
                              </td></select>
                             </tr>
                         </table>
