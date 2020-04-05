@@ -45,7 +45,7 @@
                         <li class="menu-item">
                             <a href="index.html">Home</a></li>
                         <li class="menu-item">
-                            <a href="about.html">About me</a></li>
+                            <a href="details.php">About me</a></li>
                         <li class="menu-item">
                             <a href="#">Dropdown</a>
                             <ul class="sub-menu">
