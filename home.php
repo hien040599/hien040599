@@ -43,21 +43,7 @@
                 <div class="table-cell">
                     <ul id="menu-menu-1">
                         <li class="menu-item">
-                            <a href="index.html">Home</a></li>
-                        <li class="menu-item">
-                            <a href="about.html">About me</a></li>
-                        <li class="menu-item">
-                            <a href="#">Dropdown</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item">
-                                    <a href="#">Cute</a></li>
-                                <li class="menu-item">
-                                    <a href="#">Fun</a></li>
-                                <li class="menu-item">
-                                    <a href="#">Fitness</a>
-                                </li>
-                            </ul>
-                        </li>
+                            <a href="home.php">Home</a></li>
                         <li class="menu-item">
                             <a href="blog.html">Blog</a>
                             <ul class="sub-menu">
@@ -65,8 +51,6 @@
                                     <a href="single.html">Single</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item">
-                            <a href="typography.html">Typography</a></li>
                         <li class="menu-item">
                             <a href="contact.html">Contact me</a></li>
                         <li class="menu-inline menu-item">
@@ -78,11 +62,12 @@
                                 <i class="fa fa-facebook"></i><span class="i">Facebook</span>
                             </a></li>
                         <li class="menu-inline menu-item">
-                            <a title="Flickr" href="#"><i class="fa fa-flickr"></i><span class="i">Flickr</span></a>
-                        </li>
+                           <a title="Instagram" href="#">
+                                <i class="fa fa-instagram"></i><span class="i">Instagram</span>
+                            </a>
                         <li class="menu-inline menu-item">
                             <a title="Instagram" href="#">
-                                <i class="fa fa-instagram"></i><span class="i">Instagram</span>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="i">Cart</span>
                             </a>
                         </li>
                     </ul>
@@ -98,7 +83,7 @@
 </header>
 
 
-<div class="hero" style="background-image: url('images/lead.jpg'); text-align:right;">
+<div class="hero" style="text-align:right;">
     <div class="hero-inner">
         <div class="inner">
             <h1><span class="border border-top border-bottom">itsy</span></h1>
@@ -112,23 +97,25 @@
 </div>
 <div class="home-sticky" id="content">
 
-    <h2 class="home-sticky-title">my fave moments</h2>
+    <!--<h2 class="home-sticky-title">my fave moments</h2>-->
 
 
     <div class="sticky-inner">
         <!--khối này-->
-
-        <aside class="home-sticky-post post has-post-thumbnail sticky">
-<!--while-->
  <?php
                                 include 'connect.php';
                                 $sql = "select* from tblproduct";
                                 $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
+        <aside class="home-sticky-post post has-post-thumbnail sticky">
+<!--while-->
+
+		
+		
   		    <span class="post-image">
-  				<a href="#">
-  				<img width="502" height="502" src="https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fwww.ikea.com%2Fus%2Fen%2Fp%2Fgosig-golden-soft-toy-dog-yellow-golden-retriever-80132799%2F&psig=AOvVaw3ELDmSPSY6DEaFHkDF-hgw&ust=1586080773287000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICNsLzBzugCFQAAAAAdAAAAABAD"
+  				<a href="details.php">
+  				<img width="502" height="502" src="<?= $row[4] ?>"
                      class="attachment-sticky size-sticky" alt=""/>
   				</a>
   		    </span>
@@ -136,20 +123,23 @@
                 <h3 class="entry-title">
                     <a href="#"><?= $row[1] ?></a>
                 </h3>
-		    <?php
-                                }
-                                ?>
+		 
+		    
+		    
 <!-- kết thúc while-->
                 <ul class="meta top">
                     <li class="time">
                         <a href="#">
-                            <time class="post-date updated" datetime="2015-02-02">February 2, 2015</time>
+                            <time class="post-date updated">View details</time>
                         </a>
                     </li>
                 </ul>
             </div>
 
         </aside>
+	    <?php
+                                }
+                                ?>
 <!--kết thúc-->
         <aside class="home-sticky-post post has-post-thumbnail sticky ">
 

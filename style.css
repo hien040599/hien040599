@@ -3408,7 +3408,10 @@ input[type="text"], input[type="url"], input[type="email"], input[type="tel"], i
   font-size: 51px;
   font-size: 5.1rem;
 }
-
+.hero{
+    background-image: url(https://lh3.googleusercontent.com/proxy/S57vsdJcPvT4V7pvpx6x4vkVKwQTju-N4_HfjYu6TNWWXEC9G8IsO_va-otNP6x0WRgjphe8roZGb_dt0vOwKAfFGGXmXhJHyPnu9beET68wJaO_KIX9rpfPRDoP6ho02SIMVGQ);
+    background-size: 100%;
+}
 .sticky-inner {
   display: block;
   margin: 0 auto;
@@ -3692,5 +3695,25 @@ header.header nav,
     height: 50% !important;
   }
 }
+.add1{
+  background-color: #2d3436; /* Green */
+  border: none;
+  color: white;
+  padding: 40px,10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+table {
+ border-collapse:collapse;
+  width: 50%;
+}
 
+th, td {
+  padding: 1px;
+}
 /*# sourceMappingURL=style.css.map */
