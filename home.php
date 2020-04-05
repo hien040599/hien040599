@@ -83,7 +83,7 @@
 </header>
 
 
-<div class="hero" style="background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0da5d569-0f3d-47c4-98d9-2ac29218c2a0/ddbtgc5-3f8d6842-118f-4c50-abd3-94ca09c50edd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkYTVkNTY5LTBmM2QtNDdjNC05OGQ5LTJhYzI5MjE4YzJhMFwvZGRidGdjNS0zZjhkNjg0Mi0xMThmLTRjNTAtYWJkMy05NGNhMDljNTBlZGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fn6lnOuBUQtiZz9hdEBlQIq29KuGONcrq6QmfUrfeVU); text-align:right;">
+<div class="hero" style="text-align:right;">
     <div class="hero-inner">
         <div class="inner">
             <h1><span class="border border-top border-bottom">itsy</span></h1>
