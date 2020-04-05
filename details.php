@@ -78,11 +78,13 @@
                                 <i class="fa fa-facebook"></i><span class="i">Facebook</span>
                             </a></li>
                         <li class="menu-inline menu-item">
-                            <a title="Flickr" href="#"><i class="fa fa-flickr"></i><span class="i">Flickr</span></a>
+                           <a title="Instagram" href="#">
+                                <i class="fa fa-instagram"></i><span class="i">Instagram</span>
+                            </a>
                         </li>
                         <li class="menu-inline menu-item">
                             <a title="Instagram" href="#">
-                                <i class="fa fa-instagram"></i><span class="i">Instagram</span>
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="i">Cart</span>
                             </a>
                         </li>
                     </ul>
@@ -115,18 +117,40 @@
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
                         <p><img class="size-full alignleft rounded" src="<?= $row[4] ?>" alt="about-clare" width="300" height="300">
-                            Price: <?= $row[2] ?></p>
-                       <form><input type="number" min="1" max="5" step="1"></form>
-                        <p>I’m an aspring photographer and this is my little corner of the world, so take a look around and let me know what you think… I’m on these little social networks too…</p>
+                        <form action="#">
+                        <table>
+                            <tr>
+                                <td>
+                                    price
+                                </td>
+                                  <td>
+                                   <?= $row[2] ?>
+                                </td>
+                            </tr>
+                         
+                            <tr>
+                             <td>số lượng</td>
+                             <td>
+                                
+                                 <input type="number" min="1" max="5" step="1">
+                               
+                             </td>
+                            </tr>
+                             <tr>
+                             <td>màu sắc</td>
+                             <td><select name="sltype">
+                                <option>xám</option>
+                                <option>nâu</option>
+                                <option>hồng</option>
+                             </td></select>
+                            </tr>
+                        </table>
+                      </form>
+                        <br/>
                         <p>
-				<?php
-				}
-			    ?>
-                            <a target="_self" class="social twitter black" href="#"> Twitter </a>
-                            <a target="_self" class="social facebook black" href="#"> Facebook&nbsp;</a>
-                            <a target="_self" class="social instagram black" href="#">&nbsp;instagram&nbsp;</a>
-                            <a target="_self" class="social flickr black" href="#"> flickr&nbsp;</a>
+                           <button class="add1" type="submit">Add to cart</button>
                         </p>
+
 
                     </div>
    <!--kết thúc-->                 
