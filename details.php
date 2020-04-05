@@ -129,7 +129,7 @@
                             </tr>
                          
                             <tr>
-                             <td>số lượng</td>
+                             <td>Quantity</td>
                              <td>
                                 
                                  <input type="number" min="1" max="5" step="1">
@@ -137,7 +137,7 @@
                              </td>
                             </tr>
                              <tr>
-                             <td>màu sắc</td>
+                             <td>Color</td>
                              <td><select name="sltype">
                                 <option>xám</option>
                                 <option>nâu</option>
