@@ -43,21 +43,7 @@
                 <div class="table-cell">
                     <ul id="menu-menu-1">
                         <li class="menu-item">
-                            <a href="index.html">Home</a></li>
-                        <li class="menu-item">
-                            <a href="about.html">About me</a></li>
-                        <!--<li class="menu-item">
-                            <a href="#">Dropdown</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item">
-                                    <a href="#">Cute</a></li>
-                                <li class="menu-item">
-                                    <a href="#">Fun</a></li>
-                                <li class="menu-item">
-                                    <a href="#">Fitness</a>
-                                </li>
-                            </ul>
-                        </li>-->
+                            <a href="home.php">Home</a></li>
                         <li class="menu-item">
                             <a href="blog.html">Blog</a>
                             <ul class="sub-menu">
@@ -65,8 +51,6 @@
                                     <a href="single.html">Single</a></li>
                             </ul>
                         </li>
-                        <!--<li class="menu-item">
-                            <a href="typography.html">Typography</a></li>-->
                         <li class="menu-item">
                             <a href="contact.html">Contact me</a></li>
                         <li class="menu-inline menu-item">
