@@ -107,15 +107,15 @@
             <article class="post page">
 
                 <div class="inner">
-                    <h1>About me</h1>
-                    <div class="post-content">
-      <!-- bắt đầu-->    
-			    <?php
+			<?php
                                 include 'connect.php';
                                 $sql = "select* from tblproduct";
                                 $result = pg_query($cnn, $sql);
                                 while ($row = pg_fetch_array($result)) {
                                   ?>
+                    <h1><?= $row[1] ?></h1>
+                    <div class="post-content">
+      <!-- bắt đầu-->    
                         <p><img class="size-full alignleft rounded" src="<?= $row[4] ?>" alt="about-clare" width="300" height="300">
                         <form action="#">
                         <table>
@@ -153,12 +153,11 @@
 
 
                     </div>
-		    <?php
-				}
-			    ?>
    <!--kết thúc-->                 
                 </div>
-
+?php
+				}
+			    ?>
             </article>
             <div class="border"></div>
 
